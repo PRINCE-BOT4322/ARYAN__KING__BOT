@@ -24,7 +24,7 @@ react.includes("🪔 ")) {
 “छत पर रखा एक चिराग, आसमान को रोशन कर गया
  दिवाली की दस्तक क्या हुई, खुशियों से दामन भर गया…”💐✿
  *╔═══❖•⊰ ☞𓅂 𝐌𝐀𝐃𝐄 ♡ 𝐁𝐘 ♡ 𝐀𝐑𝐘𝐍𝐀𓅂☜ ⊱•❖═══╗*`,
-attachment: fs.createReadStream(__dirname + `/noprefix/Kheer.jpg`)
+attachment: fs.createReadStream(__dirname + `/noprefix/Diwali.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🪔", event.messageID, (err) => {}, true)
