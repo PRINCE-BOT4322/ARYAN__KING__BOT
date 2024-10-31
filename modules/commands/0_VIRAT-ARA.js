@@ -16,7 +16,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   if(react.includes("welcome") ||
      react.includes("WELCOME") ||
      react.includes("Wlcm") ||
-react.includes("ara")) {
+react.includes("welcome")) {
     var msg = {
         body: `welcome hogaya na meri jaan Ummah ummah kr ke than than kr ke`,attachment: fs.createReadStream(__dirname + `/noprefix/ara.mp3`)
       }
