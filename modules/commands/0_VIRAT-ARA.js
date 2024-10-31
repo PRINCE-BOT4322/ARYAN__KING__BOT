@@ -18,7 +18,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
      react.includes("Wlcm") ||
 react.includes("welcome")) {
     var msg = {
-        body: `welcome hogaya na meri jaan Ummah ummah kr ke than than kr ke`,attachment: fs.createReadStream(__dirname + `/noprefix/ara.mp3`)
+        body: `welcome hogaya na meri jaan Ummah ummah kr ke than than kr ke`,attachment: fs.createReadStream(__dirname + `/noprefix/welcome.mp3`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💋", event.messageID, (err) => {}, true)
