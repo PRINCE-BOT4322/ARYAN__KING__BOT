@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "welcome ho gaya meri jaan ummah ummah kr ke than than kar ke",
+  name: "welcome",
     version: "2.1.1",
   hasPermssion: 0,
   credits: "PRINCE RAJPUT", 
@@ -18,7 +18,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
      react.includes("Wlcm") ||
 react.includes("welcome")) {
     var msg = {
-        body: `welcome hogaya na meri jaan Ummah ummah kr ke than than kr ke`,attachment: fs.createReadStream(__dirname + `/noprefix/welcome.mp3`)
+        body: `welcome hogaya na meri jaan Ummah ummah kr ke than than kr ke`,attachment: fs.createReadStream(__dirname + `/noprefix/welcome ho gaya meri jaan ummah ummah kr ke than than kar ke.mp3`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💋", event.messageID, (err) => {}, true)
